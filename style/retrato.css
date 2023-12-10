@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*CCONFIGURAÇÕES PARA MODO RETRATO (portrait)*/
+
+header {
+    padding: 230px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 320px;
+    background-image: url("../imagens/DM-news.jpg");
+    background-repeat: no-repeat;
+    background-position: center initial;
+    background-size: cover;
+    background-color: var(--cor0)
+}
+
+main{
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+main h1{
+    font-size: 1.8em;
+}
+
+main h2{
+    font-size: 1.3em;
+}
+
+main h3{
+    font-size: 1.2em;
+}
+
+main p{
+    font-size: 1em;
+    padding: 0px;
+}
+
+section {
+    display: block;
+    margin: auto;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+    color: var(--cor0);
+    display: flexbox;
+    padding: 30px;
+}
+
+footer hr {
+    width: 300px;
+    border: 2px solid;
+    border-color: var(--cor1);
+}
+
+footer a {
+    color: var(--cor0);
+    text-decoration: none;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: var(--cor3);
+}
+
+footer li {
+    padding:5px;
+    text-align: left;
+}
+
+footer li a{
+    text-align: left;
+    list-style: none;
+    padding-left: 14px;
+}
+
+footer p{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    color: var(--cor3);
+}
