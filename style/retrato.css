@@ -14,6 +14,19 @@ header {
     background-color: var(--cor0)
 }
 
+
+
+main > div.imagem1{
+    background-image: url(../imagens/app-dmnews1-form.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 450px;
+    margin: auto;
+}
+
+
+
 main{
     min-width: 320px;
     max-width: 800px;
