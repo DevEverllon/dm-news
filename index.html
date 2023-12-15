@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
 
     </header>
@@ -41,6 +41,15 @@ menu
     </span>
 
     <script>
+        //RESOLVER BUG
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                list.style.display = 'block'
+            } else{
+                list.style.display = 'none'
+            }
+        }
+        
         function menuAcessar() {
             var list = document.getElementById('list')
             const menu = document.getElementById('menu')

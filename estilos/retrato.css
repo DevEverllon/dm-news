@@ -6,6 +6,8 @@
         display: block;
         text-align: left;
         color: var(--cor2);
+
+        cursor: pointer;
     }
     
     nav{
@@ -16,6 +18,7 @@
         padding: 10px;
         height: 700px; 
     }
+    
     nav a{
         text-align: left;
         display: list-item;
