@@ -7,5 +7,4 @@ function menuAcessar(){
     }else{
         list.style.display = 'none'
     }
-
 }

@@ -2,16 +2,20 @@
 
 /*CONFIGURAÇÕES PARA MODO PAISAGEM (landscape)*/
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 header {
     padding: 350px;
     padding-left: 150px;
     padding-right: 150px;
-    background-image: url(../imagens/banner-dmnews\ \(2\).jpg);
+    background-image: url(../banner-paisagem-dm-news.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     background-color: var(--cor0);
-    background-size: contain;
-    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
 main{

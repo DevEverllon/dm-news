@@ -1,0 +1,71 @@
+@charset  "UTF-8";
+
+@media screen and (max-width: 600px){
+
+ #menu{
+        display: block;
+        text-align: left;
+    }
+    
+    nav{
+        display:none;  
+        width:180px;
+        position: absolute;
+        left: 0;
+        padding: 10px;
+        height: 700px; 
+    }
+    nav a{
+        text-align: left;
+        display: list-item;
+        padding: 10px;
+        list-style: none;
+    }
+
+    nav > a:hover{
+        background-color: var(--cor);
+        color: var(--cor0);
+        text-decoration: underline;
+    }
+
+
+
+    .qrcode{
+       display: none;
+    }
+
+
+    header{
+        background-color: var(--cor0);
+        background-image: url(banner-retrato-dm-news.jpg);
+        background-position: left center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+    }
+
+    main{
+        background-color: var(--cor0);
+        width: 90%;
+        margin: auto;
+    }
+
+    /* main img{
+        width: 100%;
+    } */
+
+    footer{
+        display:list-item;
+        margin-top: 10px;
+        height:100%;
+        width: 100%;
+    }
+
+    footer ul{
+        text-align: left;
+        padding: 20px;
+        font-size: 20px;
+        width: 80%;
+    }
+}
