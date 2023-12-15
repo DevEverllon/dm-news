@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px){
+    header{
+        background-image: url(banner-paisagem-dm-news.jpg);
+        background-attachment: fixed;
+        background-color: var(--cor0);
+        background-repeat: no-repeat;
+        background-position: center initial;
+        background-size: contain;
+        width: 100%;
+        height: 500px;
+    }
+}

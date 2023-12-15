@@ -1,10 +1,11 @@
 @charset  "UTF-8";
 
 @media screen and (max-width: 600px){
-
- #menu{
+    #menu{
+        width: 20px;
         display: block;
         text-align: left;
+        color: var(--cor2);
     }
     
     nav{
@@ -28,12 +29,9 @@
         text-decoration: underline;
     }
 
-
-
     .qrcode{
        display: none;
     }
-
 
     header{
         background-color: var(--cor0);
